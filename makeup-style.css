@@ -1,0 +1,233 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+ }
+a:hover{
+    color: black;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+.container h1{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+ /* header */
+ header{
+    background-color: #868585;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    min-height: 70px;
+    border-bottom: 0;
+    box-shadow: 0 6px 5px 0 rgba(10, 10, 10, 0.3);
+ }
+ picture{
+    float:inline-start;
+    box-shadow: 0 6px 5px 2px rgba(10, 10, 10, 0.6);
+ }
+ /* top header zone */
+ header a{
+    color: white;
+    font-size: 16px;
+ }
+  
+header li{
+    display: inline;
+    float: left;
+    padding-right: 30px;
+}
+ 
+.mainLogo{
+    float:left ;
+    padding-right:50px ;
+}
+
+nav #navLinks{
+    padding-top: 30px;
+    float: left;
+}
+ul #icon{
+    background-image: url(../images/icon/searchLogo.png);
+    background-repeat: no-repeat;
+    background-position: 6px 7px;
+}
+#navItems input{
+    /* padding:10px 0px; */
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    margin-right:150px;
+    width: 100%;
+    text-indent: 33px;
+}
+input:focus-visible{
+    outline:#868585;
+}
+
+#navItems button{
+    /* padding:10px 6px; */
+    height: 35px;
+    border: 0 ;
+    background-color: black;
+    color: white;
+    margin-top: 1px;
+    width: 150%;
+    border-radius: 5px;
+}
+#navItems button:hover{
+    background-color: white;
+    color: black;
+}
+nav #navItems{
+    padding-top: 30px;
+    float: right;
+}
+
+/* Section zone */
+
+#showcase{
+    text-align: center;
+}
+.container .section-h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    margin-top: 2.5%;
+    margin-bottom: 0;
+}
+.section-p{
+    font-weight:500;
+    margin-top: 0;
+}
+
+/* article */
+#newsletter ul{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+#newsletter li{
+    display: inline;
+    padding-right: 30px;
+}
+#newsletter a{
+    color: #363535;
+}
+#newsletter a:hover{
+    color: rgb(236, 78, 105);
+}
+#newsletter li::after{
+    padding-left: 20px;
+    content:'-';
+}
+
+/* Boxes */
+.containerBox h3{
+    text-align: center;
+}
+
+
+#boxes-Product .containerBox{
+    width: 80%;
+    margin: auto;
+    overflow: visible;
+}
+.box img{
+    height: 300px;
+    
+}
+.resize-img{
+    width: 450px;
+    border-radius: 30px;
+}
+
+#boxes-Product .box{
+    
+    float: left;
+    width: 30%;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+/* Explore */
+#explore h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #868585;
+    margin-left: 100px;
+    margin-top: 0;
+}
+#explore .containerBrand{
+    clear:right;
+    width: 80%;
+    margin: auto;
+}
+#explore .brand{
+    float: left;
+    width: 20%;
+    /* overflow: visible; */
+    margin-right: 200px;
+    margin-bottom: 30px;
+}
+#explore .brand-Lower{
+    float: left;
+    width: 20%;
+    margin-top: 0;
+    margin-left: 250px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+#explore img{
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+.resize-img{
+    width: 450px;
+    height: 300px;
+}
+/* footer */
+footer{
+    clear: left;
+    width:100%;
+    margin:auto;
+    
+}
+#footer{
+    background-color: #868585;
+    padding: 25px;
+    text-align: center;
+}
+#footer a{
+    color: white;
+    padding-right: 80px;
+}
+#footer a:hover{
+    color:black ;
+}
+#footer .copyRights{
+    padding-top: 10px;
+    color: white;
+}
+#footer .contact img{
+    height: px;
+}
+#footer .contact a:hover{
+    color: white;
+}
